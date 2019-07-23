@@ -1,0 +1,42 @@
+{
+  "name": "@taotiejs/koa-logger",
+  "version": "0.0.1",
+  "description": "Koa.js logger of Taotie",
+  "keywords": [
+    "koa",
+    "koa.js",
+    "http",
+    "log",
+    "logger",
+    "pino",
+    "pinojs",
+    "clickhouse",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taotiejs/taotie-koa-logger.git"
+  },
+  "author": "Cweili",
+  "license": "MIT",
+  "homepage": "https://github.com/taotiejs/taotie-koa-logger",
+  "bugs": {
+    "url": "https://github.com/taotiejs/taotie-koa-logger/issues"
+  },
+  "scripts": {
+    "lint": "eslint --fix *.js"
+  },
+  "dependencies": {
+    "@taotiejs/http": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.13.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
