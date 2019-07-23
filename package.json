@@ -27,7 +27,7 @@
     "lint": "eslint --fix *.js"
   },
   "dependencies": {
-    "@taotiejs/http": "^0.0.1"
+    "@taotiejs/http": "0.0.2"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
