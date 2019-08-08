@@ -1,6 +1,6 @@
 {
   "name": "@taotiejs/koa-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Koa.js logger of Taotie",
   "keywords": [
     "koa",
