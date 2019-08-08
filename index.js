@@ -14,7 +14,7 @@ module.exports = function koaLogger(opts, stream) {
           stack: e.stack,
         },
         responseTime: ctx.res.responseTime,
-      }, `${ctx.method} ${ctx.originalUrl} ${ctx.res.statusCode} ${ctx.res.responseTime}ms`);
+      }, `${ctx.method} ${ctx.originalUrl} ${ctx.res.statusCode}${ctx.res.responseTime ? ` ${ctx.res.responseTime}ms` : ''}`);
       throw e;
     });
   }
