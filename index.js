@@ -3,6 +3,7 @@ const taotieHttp = require('@taotiejs/http');
 module.exports = function koaLogger(opts, stream) {
   const wrap = taotieHttp(opts, stream);
   function taotie(ctx, next) {
+    ctx.req.ctx = ctx;
     wrap(ctx.req, ctx.res);
     ctx.log = ctx.request.log = ctx.response.log = ctx.req.log;
     return next().catch((e) => {
